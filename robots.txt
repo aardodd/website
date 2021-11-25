@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aaronrdodd.com/sitemap.xml

@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aaron's Personal Site</title><link>https://aaronrdodd.com/</link><description>Recent content on Aaron's Personal Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://aaronrdodd.com/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Aaron&#39;s Personal Site</title>
+    <link>https://aaronrdodd.com/</link>
+    <description>Recent content on Aaron&#39;s Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://aaronrdodd.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://aaronrdodd.com/about/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronrdodd.com/about/</guid>
+      <description>Hi! I&amp;rsquo;m Aaron Dodd. I&amp;rsquo;m a Software Engineer specialized in creating Full-Stack web applications. The ecosystems I am most familiar with are:
+ C# Go Java  I have a passion for Software Engineering and am primarily focused on creating lasting business value through Software Development.</description>
+    </item>
+    
+    <item>
+      <title>Basic HTML Elements</title>
+      <link>https://aaronrdodd.com/post/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaronrdodd.com/post/basic-elements/</guid>
+      <description>Example test article that contains basic HTML elements for text formatting on the Web.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

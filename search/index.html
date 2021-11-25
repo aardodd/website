@@ -3,12 +3,13 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Aaron's Personal Site</title>
-<meta name=keywords content="blog,personal,portfolio">
-<meta name=description content="A collection of my ramblings">
+<title>Search | Aaron's Personal Site</title>
+<meta name=keywords content>
+<meta name=description content="search">
 <meta name=author content="Aaron">
-<link rel=canonical href=https://aaronrdodd.com/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.css rel="preload stylesheet" as=style>
+<link rel=canonical href=https://aaronrdodd.com/search/>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.css rel="preload stylesheet" as=style><link crossorigin=anonymous rel=preload as=fetch href=../index.json>
+<script defer crossorigin=anonymous src=/assets/js/search.min.js></script>
 <link rel=icon href=https://aaronrdodd.com/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://aaronrdodd.com/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://aaronrdodd.com/favicon-32x32.png>
@@ -17,19 +18,19 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.89.4">
-<link rel=alternate type=application/rss+xml href=https://aaronrdodd.com/index.xml>
-<link rel=alternate type=application/json href=https://aaronrdodd.com/index.json>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript><meta property="og:title" content="Aaron's Personal Site">
-<meta property="og:description" content="A collection of my ramblings">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://aaronrdodd.com/"><meta property="og:site_name" content="Aaron's Personal Site">
+</noscript><meta property="og:title" content="Search">
+<meta property="og:description" content="search">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aaronrdodd.com/search/"><meta property="article:section" content>
+<meta property="og:site_name" content="Aaron's Personal Site">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Aaron's Personal Site">
-<meta name=twitter:description content="A collection of my ramblings">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"Aaron's Personal Site","url":"https://aaronrdodd.com/","description":"A collection of my ramblings","thumbnailUrl":"https://aaronrdodd.com/favicon.ico","sameAs":[]}</script>
+<meta name=twitter:title content="Search">
+<meta name=twitter:description content="search">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Search","item":"https://aaronrdodd.com/search/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Search","name":"Search","description":"search","keywords":[],"articleBody":"","wordCount":"0","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Aaron"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aaronrdodd.com/search/"},"publisher":{"@type":"Organization","name":"Aaron's Personal Site","logo":{"@type":"ImageObject","url":"https://aaronrdodd.com/favicon.ico"}}}</script>
 </head>
 <body class=list id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -50,37 +51,22 @@
 </li>
 <li>
 <a href=https://aaronrdodd.com/search/ title="Search (Alt + /)" accesskey=/>
-<span>Search</span>
+<span class=active>Search</span>
 </a>
 </li>
 </ul>
 </nav>
 </header>
 <main class=main>
-<article class="first-entry home-info">
-<header class=entry-header>
-<h1>Hi There!</h1>
+<header class=page-header>
+<h1>Search <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+</h1>
+<div class=post-meta></div>
 </header>
-<section class=entry-content>
-<p>You&rsquo;ve stumbled upon the weblog of Aaron Dodd.</p>
-</section>
-<footer class=entry-footer>
-<div class=social-icons>
+<div id=searchbox>
+<input id=searchInput autofocus placeholder="Search ↵" aria-label=search type=search autocomplete=off>
+<ul id=searchResults aria-label="search results"></ul>
 </div>
-</footer>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Basic HTML Elements
-</h2>
-</header>
-<section class=entry-content>
-<p>The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.
-...</p>
-</section>
-<footer class=entry-footer><span title="2018-04-16 00:00:00 +0000 UTC">2018-04-16</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Aaron</footer>
-<a class=entry-link aria-label="post link to Basic HTML Elements" href=https://aaronrdodd.com/post/basic-elements/></a>
-</article>
 </main>
 <footer class=footer>
 <span>&copy; 2021 <a href=https://aaronrdodd.com/>Aaron's Personal Site</a></span>
