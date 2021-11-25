@@ -1,4 +1,4 @@
-var cacheName = "aaronrdodd-com-offline"
+var cacheName = "aaronrdodd-com-offline";
 
 var routes = [
   "./",
